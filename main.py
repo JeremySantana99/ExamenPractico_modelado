@@ -19,7 +19,6 @@ def configure_cors(app):
 
 # Claves API
 GROQ_API_KEY = "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"
-AGNO_API_KEY = "bZEJHu3zxOpwYWjjg7AxPLHHSYi6xs4pqTUUFa"
 
 GROQ_AGENT = Groq(id="llama-3.3-70b-versatile", api_key=GROQ_API_KEY)
 
